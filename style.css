@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#page1{
+    width: 100vw;
+    height: 100vh;
+    /* padding: 0 2vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffd60a, #7b2cbf);
+}
+
+#page1 h1{
+    text-transform: uppercase;
+    font-size: 15vh;
+}
+
+
+#page2{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #7b2cbf, #d9ed92);
+    overflow: hidden;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+}
+
+#page2 h1{
+    text-transform: uppercase;
+    font-size: 10vw;
+    color: white;
+    font-family: head;
+    white-space: nowrap;
+    font-weight: 700;
+    font-stretch: 200%;
+}
+
+#page3{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #d9ed92, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#page3 h1{
+    /* padding: 0 2vw; */
+    font-size: 10vh;
+    color: black;
+}
+
+#page4{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, black, #fb8500);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#page4 h1{
+    font-size: 8.8vh;
+    padding: 0 4vw;
+    text-align: center;
+}
+
+#page4 button{
+    position: absolute;
+    top: 6vh;
+    right: 4vw;
+}
