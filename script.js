@@ -40,16 +40,20 @@ function loco(){
 
 
 gsap.to("#page2 h1", {
-    transform: "translateX(-80%)",
+    transform: "translateX(-180%)",
+    // color: "#e5989b",
+    fontSize: "20vw",
     // fontWeight:"500",
+    // ease: "power1.inOut",
     scrollTrigger:{
         trigger: "#page2",
         scroller: "#main",
         // markers: true,
         start: "top 0",
-        end: "top -250%",
-        scrub: 3,
-        pin: true
+        end: "top -500%",
+        scrub: 2,
+        pin: true,
+        ease: "power1.inOut",
     }
 })
 
