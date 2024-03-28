@@ -71,7 +71,7 @@ const addNewJoke = async () => {
 
     if(jokeText){
         const newJoke = document.createElement("h1")
-        newJoke.textContent =  `"${jokeText}"`
+        newJoke.textContent = `"${jokeText}"`
 
         const page4 = document.querySelector("#page4")
         page4.append(newJoke)
