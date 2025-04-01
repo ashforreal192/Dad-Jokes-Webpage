@@ -51,7 +51,7 @@ body {
 #page2 h1{
     text-transform: uppercase;
     font-size: 10vw;
-    /* color: white; */
+    color: white;
 
 
     background-image: linear-gradient(to right, #ff7d00, #003049); /* Define the gradient */
